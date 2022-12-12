@@ -64,7 +64,7 @@ function clearElements() {
 
 function getWeather(input) {
     var coords = {};
-    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${input}&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${input}&appid=${API_KEY}`)
     .then((res) => {
         return res.json();
     })
@@ -79,7 +79,7 @@ function getWeather(input) {
 }
 
 function getForecast(coords) {
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${coords.lat}&lon=${coords.lon}&units=imperial&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${coords.lat}&lon=${coords.lon}&units=imperial&appid=${API_KEY}`)
     .then((res) => {
         return res.json();
     })
