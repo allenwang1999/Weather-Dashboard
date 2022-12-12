@@ -8,7 +8,7 @@ The problem for challenge 6 is to create a webpage which displays a 5-day weathe
 ![Challenge 6 Preview](./Assets/06-preview.png)
 
 ## Usage
-To use the webpage, go to https://allenwang1999.github.io/Weather-Forecast using your browser and search a city on the left bar.
+To use the webpage, go to https://allenwang1999.github.io/Weather-Dashboard using your browser and search a city on the left bar.
 
 ## License
 MIT License; refer to the <a href="LICENSE">LICENSE</a> file in the repo.
