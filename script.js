@@ -112,7 +112,7 @@ function createElements(forecasts, city) {
 
     var headerIcon = $('<img>');
     headerIcon.attr('class', 'd-inline');
-    headerIcon.attr('src', `http://openweathermap.org/img/wn/${forecasts[0].weather[0].icon}@2x.png`);
+    headerIcon.attr('src', `https://openweathermap.org/img/wn/${forecasts[0].weather[0].icon}@2x.png`);
 
     var headerTemp = $('<h5>');
     var headerWind = $('<h5>');
@@ -138,7 +138,7 @@ function createElements(forecasts, city) {
 
         var icon = $('<img>');
         icon.attr('class', 'd-inline');
-        icon.attr('src', `http://openweathermap.org/img/wn/${forecasts[i].weather[0].icon}.png`);
+        icon.attr('src', `https://openweathermap.org/img/wn/${forecasts[i].weather[0].icon}.png`);
 
         var temp = $('<h5>');
         var wind = $('<h5>');
