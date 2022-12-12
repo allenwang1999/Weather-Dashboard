@@ -1,5 +1,4 @@
-//remove later
-var API_KEY = "efd0a521bf563cfcccef7a25d96e2a18";
+
 
 var input = $('#city-search');
 var submitButton = $('#search-button');
